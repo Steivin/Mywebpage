@@ -44,6 +44,7 @@ header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px 15px;
 }
 
 header nav{
@@ -168,6 +169,7 @@ section a{
 #nuestros-productos h2{
     margin-top: 0;
     font-size: 35px;
+    text-transform: uppercase;
 }
 
 #nuestros-productos p{
@@ -210,4 +212,28 @@ section a{
     )
     
     ,url("../img/reloj-lujo.webp");
+}
+
+/* ********************* FOOTER ****************** */
+
+footer{
+    background-color: rgb(245,245,245);
+}
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+ul{
+    list-style: none;
 }
