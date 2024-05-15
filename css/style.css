@@ -54,12 +54,25 @@ header nav{
     padding-bottom: 25px;
 }
 
+.hamburguer{
+    color: black;
+    width: 30px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color .5s ease-in;
+}
+
 header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
     text-transform: uppercase;
+}
+
+nav a{
+    display: none;
 }
 
 header a:hover{
@@ -273,4 +286,32 @@ ul{
 li{
     padding: 10px 10px;
     padding-bottom: 5px;
+}
+
+/* ********************* MEDIA QUERYS ****************** */
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    .logo img{
+        height: 30px;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    .hamburguer{
+        display: none;
+    }
 }
