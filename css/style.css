@@ -61,6 +61,7 @@ header nav{
     z-index: 100;
     cursor: pointer;
     transition: color .5s ease-in;
+    font-size: 25px;
 }
 
 header a{
@@ -280,7 +281,6 @@ footer a{
 
 ul{
     list-style: none;
-    margin-bottom: 10px;
 }
 
 li{
