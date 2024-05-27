@@ -311,7 +311,55 @@ li{
         display: block;
     }
 
+    #fondo h1{
+        font-size: 50px;
+    }
+    #nosotros h2{
+        font-size: 50px;
+    }
+    #nosotros p{
+        font-size: 25px;
+    }
+
+    #nuestros-productos .productos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-productos p{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    #nuestros-productos h3{
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    #nuestros-produtos .productos{
+        padding: 50px;
+        align-items: stretch;
+    }
+
+    #nuestros-productos .carta1, .carta2, .carta3{
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        padding: 50px;
+        
+    }
+    
+    #nuestros-productos h2{
+        font-size: 50px;
+    }
     .hamburguer{
         display: none;
+    }
+
+    #foot h3{
+        font-size: 30px;
+    }
+    #foot a{
+        font-size: 20px;
     }
 }
