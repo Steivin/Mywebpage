@@ -402,4 +402,7 @@ li {
     #foot a {
         font-size: 20px;
     }
+    ul{
+        display: flex;
+    }
 }
