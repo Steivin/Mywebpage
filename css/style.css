@@ -1,60 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=intercambio');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h1{ 
+h1 {
     font-size: 30px;
 }
 
-h2{
+h2 {
     font-size: 25px;
 }
 
-h3{
+h3 {
     font-size: 20px;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* ********************* MENÚ DE NAVEGACIÓN ****************** */
-header{
-    background-color: rgb(245,245,245);
-    box-shadow: 1px 1px 10px 0 rgba(0,0,.2);
+header {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, .2);
 }
 
-header .logo{
+header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px 15px;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
 }
 
-.hamburguer{
+.hamburguer {
     color: black;
     width: 30px;
     text-align: center;
@@ -64,7 +64,7 @@ header nav{
     font-size: 25px;
 }
 
-header a{
+header a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
@@ -72,32 +72,32 @@ header a{
     text-transform: uppercase;
 }
 
-nav a{
+nav a {
     display: none;
 }
 
-header a:hover{
+header a:hover {
     color: blueviolet;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 80px;
     margin-right: 10px;
-    
+
 }
 
-nav a:hover{
+nav a:hover {
     color: blueviolet;
 }
 
 /* ********************* SECTION PRINCIPAL ****************** */
 
-.fondo  a{
+.fondo a {
     margin: 28px 0 0 0;
     width: 150px;
     display: inline-block;
@@ -113,7 +113,7 @@ nav a:hover{
     box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
 }
 
-section a{
+section a {
     margin: 28px 0 0 0;
     width: 150px;
     display: inline-block;
@@ -129,49 +129,46 @@ section a{
     box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
 }
 
-.boton:hover{
+.boton:hover {
     background-color: rgb(97, 30, 160);
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-#fondo{
+#fondo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     color: white;
     text-transform: uppercase;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    
-    ,url("../img/header.jpg");
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+
 }
 
-#fondo h1{
+#fondo h1 {
     color: white;
 }
 
-.nosotros, .container{
+.nosotros,
+.container {
     text-align: center;
     padding: 200px 12px;
     color: white;
 
 }
 
-.container-nosotros{
+.container-nosotros {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,49 +176,47 @@ section a{
     flex-direction: column;
     color: white;
     height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    
-    ,url("../img/header2.webp");
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/header2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#nosotros h2{
+#nosotros h2 {
     font-size: 35px;
     text-transform: uppercase;
 }
 
-#nosotros p{
+#nosotros p {
     text-align: center;
     font-size: 20px;
 }
 
-#nuestros-productos{
-    background-color: rgb(30,30,30);
+#nuestros-productos {
+    background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
 }
 
-#nuestros-productos .container{
+#nuestros-productos .container {
     padding: 150px 12px;
 }
 
-#nuestros-productos h2{
+#nuestros-productos h2 {
     margin-top: 0;
     font-size: 35px;
     text-transform: uppercase;
 }
 
-#nuestros-productos p{
+#nuestros-productos p {
     display: none;
 }
 
-#nuestros-productos .carta1, .carta2, .carta3{
+#nuestros-productos .carta1,
+.carta2,
+.carta3 {
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -229,137 +224,182 @@ section a{
     border-radius: 15px;
 }
 
-.carta1{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    
-    ,url("../img/reloj-exclusivo.jpg");
+.carta1 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/reloj-exclusivo.jpg");
 }
 
-.carta2{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    
-    ,url("../img/reloj-clasico.jfif");
+.carta2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/reloj-clasico.jfif");
 }
 
-.carta3{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    
-    ,url("../img/reloj-lujo.webp");
+.carta3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/reloj-lujo.webp");
 }
 
 /* ********************* FOOTER ****************** */
 
-footer{
-    background-color: rgb(245,245,245);
-}
-
-footer .contact{
+footer {
+    background-color: rgb(245, 245, 245);
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 15px 15px;
-    text-transform: uppercase;
+    padding: 15px;
+    flex-wrap: wrap;
 }
 
-footer a{
+footer .contact {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+footer a {
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
 
-ul{
+ul {
     list-style: none;
+    padding: 0;
+    font-size: 20px;
 }
 
-li{
-    padding: 10px 10px;
+ul a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+li {
+    padding: 10px;
     padding-bottom: 5px;
 }
 
+#foot a:hover {
+    color: #FFF;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    transition: all ease-in-out .6s;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-foot {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.company-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* ********************* MEDIA QUERYS ****************** */
-@media (min-width: 720px){
-    header{
+@media (min-width: 720px) {
+    header {
         position: fixed;
         width: 100%;
     }
-    .logo img{
+
+    .logo img {
         height: 30px;
     }
-    header .container{
+
+    header .container {
         flex-direction: row;
         justify-content: space-between;
     }
-    header nav{
+
+    header nav {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
     }
 
-    nav a{
+    nav a {
         display: block;
+        color: #000;
+        border-radius: 10px;
     }
 
-    #fondo h1{
+    nav a:hover {
+        color: #FFF;
+        background-color: blueviolet;
+        border-color: blueviolet;
+        transition: all ease-in-out .6s;
+    }
+
+    #fondo h1 {
         font-size: 50px;
     }
-    #nosotros h2{
+
+    #nosotros h2 {
         font-size: 50px;
     }
-    #nosotros p{
+
+    #nosotros p {
         font-size: 25px;
     }
 
-    #nuestros-productos .productos{
+    #nuestros-productos .productos {
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-productos p{
+    #nuestros-productos p {
         display: block;
         margin-bottom: 30px;
         font-size: 20px;
     }
 
-    #nuestros-productos h3{
+    #nuestros-productos h3 {
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 25px;
     }
 
-    #nuestros-produtos .productos{
+    #nuestros-produtos .productos {
         padding: 50px;
         align-items: stretch;
     }
 
-    #nuestros-productos .carta1, .carta2, .carta3{
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    #nuestros-productos .carta1,
+    .carta2,
+    .carta3 {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         padding: 50px;
-        
+
     }
-    
-    #nuestros-productos h2{
+
+    #nuestros-productos h2 {
         font-size: 50px;
     }
-    .hamburguer{
+
+    .hamburguer {
         display: none;
     }
 
-    #foot h3{
+    #foot h3 {
         font-size: 30px;
     }
-    #foot a{
+
+    #foot a {
         font-size: 20px;
     }
 }
