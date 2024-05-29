@@ -98,3 +98,27 @@ section{
     font-size: 32px;
 }
 
+.return{
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+}
+
+.boton a{
+    margin: 28px 0 0 0;
+    width: 150px;
+    display: inline-block;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.boton a:hover {
+    background-color: rgb(97, 30, 160);
+}
